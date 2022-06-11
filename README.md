@@ -46,7 +46,7 @@ Our model in this application is using transfer learning from [Xception](https:/
 
 <details>
   <summary>Model Flowchart</summary>
-  <img src="https://github.com/nadikarim/FUTON/blob/Android/Machine%20Learning/Media/Model%20Summary.png" width="500"/>
+  <img src="https://github.com/nadikarim/FUTON/blob/Android/Machine%20Learning/Media/Model%20Flowchart.png" width="500"/>
 </details>
 
 ### Model
