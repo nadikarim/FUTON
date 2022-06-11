@@ -18,7 +18,52 @@ Based on our research, Indonesian people have slightly low awareness about endan
 ## Machine Learning
 ### Overview
 We create a machine learning that detect a lot of kinds of endangered species in Indonesia, and also categorized non-endanged species in one category.
-The goal of this model is to give information about what kinds of endangered species are there in Indonesia, and which one is categorized as non-endangered as well.
+
+The goal of this model is to recognize and give information about what kinds of endangered species are there in Indonesia, and which one is categorized as non-endangered as well.
+
+<details>
+  <summary>Nanti Ceritanya disini mau ditambah contoh output Android</summary>
+  </>
+</details>
+
+### Dataset and Data Preparation
+The dataset we use for this model is a combined dataset of our own collective dataset, [Indonesian Endangered Species 1](https://www.kaggle.com/datasets/nadyanurfadhila/indonesian-endangered-animal), and [Indonesian Endangered Species 2](https://www.kaggle.com/datasets/nadyanurfadhila/indonesia-endangered-animal2). You can download the dataset [here](https://drive.google.com/uc?export=download&id=18qRgkDv33lL11j--46asUWdQR42uDA_I). This dataset contains 5107 images of 58 kinds of endangered species in Indonesia, and one category for non-endangered species in Indonesia.
+
+We split the dataset using [split-folders](https://pypi.org/project/split-folders/) library in Python into three directories Training, Validation, Testing with Ratio (0.8, 0.1, 0.1). Then, we use image augmentation to rescale the dataset by 1/255 and resize it to 224x224, we think this number is not too big and not too small to affect loss and the performance of our CNN.
+
+<details>
+  <summary>Example of Dataset with Each Labels</summary>
+  <img src="https://github.com/nadikarim/FUTON/blob/Android/Machine%20Learning/Media/Dataset%20Overview.png" width="500"/>
+</details>
+
+### Transfer Learning
+Our model in this application is using transfer learning from [Xception](https://keras.io/api/applications/xception/). We did some modification and adjustable to make the best model possible.
+
+<details>
+  <summary>Model Summary</summary>
+  <img src="https://github.com/nadikarim/FUTON/blob/Android/Machine%20Learning/Media/Model%20Summary.png" width="500"/>
+</details>
+
+<details>
+  <summary>Model Flowchart</summary>
+  <img src="https://github.com/nadikarim/FUTON/blob/Android/Machine%20Learning/Media/Model%20Summary.png" width="500"/>
+</details>
+
+### Model
+<details>
+  <summary>Model Accuracy</summary>
+  <img src="https://github.com/nadikarim/FUTON/blob/Android/Machine%20Learning/Media/Model%20Accuracy.png" width="500"/>
+</details>
+
+<details>
+  <summary>Model Loss</summary>
+  <img src="https://github.com/nadikarim/FUTON/blob/Android/Machine%20Learning/Media/Model%20Loss.png" width="500"/>
+</details>
+
+<details>
+  <summary>Testing Example</summary>
+  <img src="https://github.com/nadikarim/FUTON/blob/Android/Machine%20Learning/Media/Testing%20Example.png" width="500"/>
+</details>
 
 ## Cloud Computing
 ### Overview
