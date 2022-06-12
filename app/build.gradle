@@ -78,4 +78,8 @@ dependencies {
 
     //Scalars
     implementation'com.squareup.retrofit2:converter-scalars:2.5.0'
+
+    // Tensorflow lite dependencies
+    implementation 'org.tensorflow:tensorflow-lite-support:0.1.0'
+    implementation 'org.tensorflow:tensorflow-lite-metadata:0.1.0'
 }

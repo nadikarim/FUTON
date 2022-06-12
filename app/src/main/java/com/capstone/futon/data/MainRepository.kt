@@ -45,11 +45,14 @@ class MainRepository @Inject constructor(
                     ) {
                         if (response.isSuccessful) {
                             _userLogin.postValue(response.body())
+                        } else {
+                            _toast.postValue("Email atau password salah!")
                         }
                     }
 
                     override fun onFailure(call: Call<String>, t: Throwable) {
                         Log.d("TAG", "Retrofit Fail")
+                        _toast.postValue(t.message)
                     }
 
                 })
