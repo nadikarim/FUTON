@@ -93,7 +93,7 @@ for the server, we use virtual machine (VM) in Google Cloud Platform to deploy o
 
 We build an android application for end user so everyone can use our application. This is our [flowchart](https://drive.google.com/file/d/1IoWHeYlkkhACOg2P4lvqJZR6DIS1DcWK/view?usp=sharing) to explain how our app is work
 <details>
-  <summary>Our Flowchart</summary>
+  <summary>Application Flowchart</summary>
   <img src="https://github.com/nadikarim/FUTON/blob/Android/Mobile%20Development/Media/Flowchart%20FUTON.jpg"/>
 </details>
 
