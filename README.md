@@ -110,6 +110,7 @@ Here is our application's Screenshot
   <img src="https://github.com/nadikarim/FUTON/blob/Android/Mobile%20Development/Media/Splash%20Screen.png" width="24%" />
   <img src="https://github.com/nadikarim/FUTON/blob/Android/Mobile%20Development/Media/Login.png" width="24%" /> 
   <img src="https://github.com/nadikarim/FUTON/blob/Android/Mobile%20Development/Media/Register.png" width="24%" />
+  <img src="https://github.com/nadikarim/FUTON/blob/Android/Mobile%20Development/Media/Home.png" width="24%" />
   <img src="https://github.com/nadikarim/FUTON/blob/Android/Mobile%20Development/Media/List%20Tumbuhan.png" width="24%" />
   <img src="https://github.com/nadikarim/FUTON/blob/Android/Mobile%20Development/Media/List%20Hewan.png" width="24%" />
   <img src="https://github.com/nadikarim/FUTON/blob/Android/Mobile%20Development/Media/Scan%20before.png" width="24%" />
