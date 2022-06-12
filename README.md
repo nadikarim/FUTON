@@ -87,4 +87,12 @@ for the server, we use virtual machine (VM) in Google Cloud Platform to deploy o
   <img src="https://github.com/nadikarim/FUTON/blob/Android/Cloud%20Computing/media/Screenshot%202022-06-12%20225402.png" width="500"/>
 </details>
 ## Mobile Development
+
 ### Overview
+
+We build an android application for end user so everyone can use our application. There ara some library we ude to build the app. This is the list of them:
+* [Retrofit](https://square.github.io/retrofit/)
+* [Tensorflow Lite](https://www.tensorflow.org/lite)
+* [Dagger-Hilt](https://dagger.dev/hilt/)
+* [Tasty Toasty](https://github.com/usman18/TastyToasty)
+* [Glide](https://bumptech.github.io/glide/)
