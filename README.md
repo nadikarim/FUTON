@@ -75,7 +75,7 @@ We create our private API for login/register, list animals & plants, and then we
 we create the api use node js with express js. 
 for the source code, check this [link](https://github.com/risavarrahman/futon-capstone).
 
-###SERVER
+### SERVER
 for the server, we use virtual machine (VM) in Google Cloud Platform to deploy our server. We use only VM because it easy to deploy and for us, it not hard to  for maintenance.
 
 <summary>Virtual Machine (VM)</summary>
