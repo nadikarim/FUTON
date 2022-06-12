@@ -22,8 +22,8 @@ We create a machine learning that detect a lot of kinds of endangered species in
 The goal of this model is to recognize and give information about what kinds of endangered species are there in Indonesia, and which one is categorized as non-endangered as well.
 
 <details>
-  <summary>Nanti Ceritanya disini mau ditambah contoh output Android</summary>
-  </>
+  <summary>Output Example of Our Application</summary>
+  <img src="https://github.com/nadikarim/FUTON/blob/Android/Machine%20Learning/Media/Scan_after.png" width="500"/>
 </details>
 
 ### Dataset and Data Preparation
