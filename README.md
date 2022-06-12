@@ -105,24 +105,13 @@ And this is the libraries we used to build the android application:
 
 
 Here is our application's Screenshot
+<p float="left">
+  <img src="https://github.com/nadikarim/FUTON/blob/Android/Mobile%20Development/Media/Splash%20Screen.png" width="24%" />
+  <img src="https://github.com/nadikarim/FUTON/blob/Android/Mobile%20Development/Media/Login.png" width="24%" /> 
+  <img src="https://github.com/nadikarim/FUTON/blob/Android/Mobile%20Development/Media/Register.png" width="24%" />
+  <img src="https://github.com/nadikarim/FUTON/blob/Android/Mobile%20Development/Media/List%20Tumbuhan.png" width="24%" />
+  <img src="https://github.com/nadikarim/FUTON/blob/Android/Mobile%20Development/Media/List%20Hewan.png" width="24%" />
+  <img src="https://github.com/nadikarim/FUTON/blob/Android/Mobile%20Development/Media/Scan%20before.png" width="24%" />
+  <img src="https://github.com/nadikarim/FUTON/blob/Android/Mobile%20Development/Media/Scan%20after.png" width="24%" />
+</p>
 
-### Splash Screen ###
-<img src="https://github.com/nadikarim/FUTON/blob/Android/Mobile%20Development/Media/Splash%20Screen.png" width="250"/>
-
-### Login ###
-<img src="https://github.com/nadikarim/FUTON/blob/Android/Mobile%20Development/Media/Login.png" width="250"/>
-
-### Register ###
-<img src="https://github.com/nadikarim/FUTON/blob/Android/Mobile%20Development/Media/Register.png" width="250"/>
-
-### Plant List ###
-<img src="https://github.com/nadikarim/FUTON/blob/Android/Mobile%20Development/Media/List%20Tumbuhan.png" width="250"/>
-
-### Animal List ###
-<img src="https://github.com/nadikarim/FUTON/blob/Android/Mobile%20Development/Media/List%20Hewan.png" width="250"/>
-
-### Before scan ###
-<img src="https://github.com/nadikarim/FUTON/blob/Android/Mobile%20Development/Media/Scan%20before.png" width="250"/>
-
-### After scan ###
-<img src="https://github.com/nadikarim/FUTON/blob/Android/Mobile%20Development/Media/Scan%20after.png" width="250"/>
