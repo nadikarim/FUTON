@@ -90,9 +90,36 @@ for the server, we use virtual machine (VM) in Google Cloud Platform to deploy o
 
 ### Overview
 
-We build an android application for end user so everyone can use our application. There ara some library we ude to build the app. This is the list of them:
+We build an android application for end user so everyone can use our application. This is our [flowchart](https://drive.google.com/file/d/1IoWHeYlkkhACOg2P4lvqJZR6DIS1DcWK/view?usp=sharing) to explain how our app is work
+
+<img src="https://github.com/nadikarim/FUTON/blob/Android/Mobile%20Development/Media/Flowchart%20FUTON.jpg" />
+
 * [Retrofit](https://square.github.io/retrofit/)
 * [Tensorflow Lite](https://www.tensorflow.org/lite)
 * [Dagger-Hilt](https://dagger.dev/hilt/)
 * [Tasty Toasty](https://github.com/usman18/TastyToasty)
 * [Glide](https://bumptech.github.io/glide/)
+
+
+Here is oir application's Screenshot
+
+### Splash Screen ###
+<img src="https://github.com/nadikarim/FUTON/blob/Android/Mobile%20Development/Media/Splash%20Screen.png" width="250"/>
+
+### Login ###
+<img src="https://github.com/nadikarim/FUTON/blob/Android/Mobile%20Development/Media/Login.png" width="250"/>
+
+### Register ###
+<img src="https://github.com/nadikarim/FUTON/blob/Android/Mobile%20Development/Media/Register.png" width="250"/>
+
+### Plant List ###
+<img src="https://github.com/nadikarim/FUTON/blob/Android/Mobile%20Development/Media/List%20Tumbuhan.png" width="250"/>
+
+### Animal List ###
+<img src="https://github.com/nadikarim/FUTON/blob/Android/Mobile%20Development/Media/List%20Hewan.png" width="250"/>
+
+### Before scan ###
+<img src="https://github.com/nadikarim/FUTON/blob/Android/Mobile%20Development/Media/Scan%20before.png" width="250"/>
+
+### After scan ###
+<img src="https://github.com/nadikarim/FUTON/blob/Android/Mobile%20Development/Media/Scan%20after.png" width="250"/>
