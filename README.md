@@ -86,6 +86,7 @@ for the server, we use virtual machine (VM) in Google Cloud Platform to deploy o
 <summary>Virtual Machine (VM)</summary>
   <img src="https://github.com/nadikarim/FUTON/blob/Android/Cloud%20Computing/media/Screenshot%202022-06-12%20225402.png" width="500"/>
 </details>
+
 ## Mobile Development
 
 ### Overview
