@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.viewModels
+
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.capstone.futon.R
 import com.capstone.futon.data.model.ListItem
@@ -13,7 +14,9 @@ import com.capstone.futon.databinding.FragmentPlantBinding
 
 class AnimalFragment : Fragment() {
 
+
     private val viewModel: ListViewModel by viewModels()
+
     private lateinit var adapter: ListAdapter
     private var  _binding: FragmentPlantBinding? = null
     private val binding get() = _binding!!
@@ -34,11 +37,13 @@ class AnimalFragment : Fragment() {
         adapter = ListAdapter()
 
         list.addAll(listPlant)
+
         viewModel.listAnimal()
         viewModel.animal.observe(viewLifecycleOwner) {
             adapter.submitList(it)
         }
 
+        adapter.submitList(list)
         setRecyclerView()
 
     }
