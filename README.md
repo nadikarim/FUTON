@@ -2,7 +2,7 @@
 > From Us To Nature
 
 <p align="center">
-  <img src="https://github.com/nadikarim/FUTON/blob/Android/FUTON%20Logo.png" width="500"/>
+  <img src="https://github.com/nadikarim/FUTON/blob/main/FUTON%20Logo.png" width="500"/>
 </p>
   
 Futon is an application to classify endangered species in Indonesia. This application was made to make people easily recognized endangered species in Indonesia so that they will not miss clasify them and increase their awareness about endangered species around us.
