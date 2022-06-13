@@ -27,7 +27,7 @@ The goal of this model is to recognize and give information about what kinds of 
 
 <details>
   <summary>Output Example of Our Application</summary>
-  <img src="https://github.com/nadikarim/FUTON/blob/Android/Machine%20Learning/Media/Scan_after.png" width="500"/>
+  <img src="https://github.com/nadikarim/FUTON/blob/main/Machine%20Learning/Media/Scan_after.png" width="500"/>
 </details>
 
 ### Dataset and Data Preparation
@@ -37,7 +37,7 @@ We split the dataset using [split-folders](https://pypi.org/project/split-folder
 
 <details>
   <summary>Example of Dataset with Each Labels</summary>
-  <img src="https://github.com/nadikarim/FUTON/blob/Android/Machine%20Learning/Media/Dataset%20Overview.png" width="500"/>
+  <img src="https://github.com/nadikarim/FUTON/blob/main/Machine%20Learning/Media/Dataset%20Overview.png" width="500"/>
 </details>
 
 ### Transfer Learning
@@ -45,28 +45,28 @@ Our model in this application is using transfer learning from [Xception](https:/
 
 <details>
   <summary>Model Summary</summary>
-  <img src="https://github.com/nadikarim/FUTON/blob/Android/Machine%20Learning/Media/Model%20Summary.png" width="500"/>
+  <img src="https://github.com/nadikarim/FUTON/blob/main/Machine%20Learning/Media/Model%20Summary.png" width="500"/>
 </details>
 
 <details>
   <summary>Model Flowchart</summary>
-  <img src="https://github.com/nadikarim/FUTON/blob/Android/Machine%20Learning/Media/Model%20Flowchart.png" width="500"/>
+  <img src="https://github.com/nadikarim/FUTON/blob/main/Machine%20Learning/Media/Model%20Flowchart.png" width="500"/>
 </details>
 
 ### Model
 <details>
   <summary>Model Accuracy</summary>
-  <img src="https://github.com/nadikarim/FUTON/blob/Android/Machine%20Learning/Media/Model%20Accuracy.png" width="500"/>
+  <img src="https://github.com/nadikarim/FUTON/blob/main/Machine%20Learning/Media/Model%20Accuracy.png" width="500"/>
 </details>
 
 <details>
   <summary>Model Loss</summary>
-  <img src="https://github.com/nadikarim/FUTON/blob/Android/Machine%20Learning/Media/Model%20Loss.png" width="500"/>
+  <img src="https://github.com/nadikarim/FUTON/blob/main/Machine%20Learning/Media/Model%20Loss.png" width="500"/>
 </details>
 
 <details>
   <summary>Testing Example</summary>
-  <img src="https://github.com/nadikarim/FUTON/blob/Android/Machine%20Learning/Media/Testing%20Example.png" width="500"/>
+  <img src="https://github.com/nadikarim/FUTON/blob/main/Machine%20Learning/Media/Testing%20Example.png" width="500"/>
 </details>
 
 ## Cloud Computing
@@ -84,7 +84,7 @@ for the server, we use virtual machine (VM) in Google Cloud Platform to deploy o
 
 <details>
 <summary>Virtual Machine (VM)</summary>
-  <img src="https://github.com/nadikarim/FUTON/blob/Android/Cloud%20Computing/media/Screenshot%202022-06-12%20225402.png" width="500"/>
+  <img src="https://github.com/nadikarim/FUTON/blob/main/Cloud%20Computing/media/Screenshot%202022-06-12%20225402.png" width="500"/>
 </details>
 
 ## Mobile Development
@@ -94,7 +94,7 @@ for the server, we use virtual machine (VM) in Google Cloud Platform to deploy o
 We build an android application for end user so everyone can use our application. This is our [flowchart](https://drive.google.com/file/d/1IoWHeYlkkhACOg2P4lvqJZR6DIS1DcWK/view?usp=sharing) to explain how our app is work
 <details>
   <summary>Application Flowchart</summary>
-  <img src="https://github.com/nadikarim/FUTON/blob/Android/Mobile%20Development/Media/Flowchart%20FUTON.jpg"/>
+  <img src="https://github.com/nadikarim/FUTON/blob/main/Mobile%20Development/Media/Flowchart%20FUTON.jpg"/>
 </details>
 
 And this is the libraries we used to build the android application:
@@ -107,13 +107,13 @@ And this is the libraries we used to build the android application:
 
 Here is our application's Screenshot
 <p float="left">
-  <img src="https://github.com/nadikarim/FUTON/blob/Android/Mobile%20Development/Media/Splash%20Screen.png" width="24%" />
-  <img src="https://github.com/nadikarim/FUTON/blob/Android/Mobile%20Development/Media/Login.png" width="24%" /> 
-  <img src="https://github.com/nadikarim/FUTON/blob/Android/Mobile%20Development/Media/Register.png" width="24%" />
-  <img src="https://github.com/nadikarim/FUTON/blob/Android/Mobile%20Development/Media/Home.png" width="24%" />
-  <img src="https://github.com/nadikarim/FUTON/blob/Android/Mobile%20Development/Media/List%20Tumbuhan.png" width="24%" />
-  <img src="https://github.com/nadikarim/FUTON/blob/Android/Mobile%20Development/Media/List%20Hewan.png" width="24%" />
-  <img src="https://github.com/nadikarim/FUTON/blob/Android/Mobile%20Development/Media/Scan%20before.png" width="24%" />
-  <img src="https://github.com/nadikarim/FUTON/blob/Android/Mobile%20Development/Media/Scan%20after.png" width="24%" />
+  <img src="https://github.com/nadikarim/FUTON/blob/main/Mobile%20Development/Media/Splash%20Screen.png" width="24%" />
+  <img src="https://github.com/nadikarim/FUTON/blob/main/Mobile%20Development/Media/Login.png" width="24%" /> 
+  <img src="https://github.com/nadikarim/FUTON/blob/main/Mobile%20Development/Media/Register.png" width="24%" />
+  <img src="https://github.com/nadikarim/FUTON/blob/main/Mobile%20Development/Media/Home.png" width="24%" />
+  <img src="https://github.com/nadikarim/FUTON/blob/main/Mobile%20Development/Media/List%20Tumbuhan.png" width="24%" />
+  <img src="https://github.com/nadikarim/FUTON/blob/main/Mobile%20Development/Media/List%20Hewan.png" width="24%" />
+  <img src="https://github.com/nadikarim/FUTON/blob/main/Mobile%20Development/Media/Scan%20before.png" width="24%" />
+  <img src="https://github.com/nadikarim/FUTON/blob/main/Mobile%20Development/Media/Scan%20after.png" width="24%" />
 </p>
 
