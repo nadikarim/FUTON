@@ -5,13 +5,24 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+
+import androidx.activity.viewModels
+
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.capstone.futon.R
 import com.capstone.futon.data.model.ListItem
 import com.capstone.futon.databinding.FragmentPlantBinding
 
+import com.capstone.futon.ui.form.FormViewModel
+import dagger.hilt.android.AndroidEntryPoint
+
+
+@AndroidEntryPoint
 class PlantFragment : Fragment() {
 
+
+
+    private val viewModel: ListViewModel by viewModels()
 
     private lateinit var adapter: ListAdapter
     private var  _binding: FragmentPlantBinding? = null
@@ -33,8 +44,20 @@ class PlantFragment : Fragment() {
         adapter = ListAdapter()
 
         list.addAll(listPlant)
+
+        viewModel.listPlant()
+        viewModel.plant.observe(viewLifecycleOwner) {
+            adapter.submitList(it)
+        }
+        //adapter.submitList(list)
+        setRecyclerView()
+
+
+
+
         adapter.submitList(list)
         setRecyclerView()
+
 
     }
 

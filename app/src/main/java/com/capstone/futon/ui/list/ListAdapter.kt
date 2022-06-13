@@ -6,6 +6,17 @@ import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.capstone.futon.data.model.ListItem
+
+import com.capstone.futon.data.model.Plant
+import com.capstone.futon.databinding.ItemListBinding
+
+class ListAdapter: androidx.recyclerview.widget.ListAdapter<Plant, ListAdapter.ListViewHolder>(DIFF_CALLBACK) {
+    inner class ListViewHolder(private val binding: ItemListBinding) : RecyclerView.ViewHolder(binding.root) {
+        fun bind(item: Plant) {
+            binding.tvNama.text = item.name
+            Glide.with(itemView.context)
+                .load(item.photo)
+
 import com.capstone.futon.databinding.ItemListBinding
 
 class ListAdapter: androidx.recyclerview.widget.ListAdapter<ListItem , ListAdapter.ListViewHolder>(DIFF_CALLBACK) {
@@ -30,6 +41,15 @@ class ListAdapter: androidx.recyclerview.widget.ListAdapter<ListItem , ListAdapt
     }
 
     companion object {
+
+        val DIFF_CALLBACK = object : DiffUtil.ItemCallback<Plant>() {
+            override fun areItemsTheSame(oldItem: Plant, newItem: Plant): Boolean {
+                return oldItem == newItem
+            }
+
+            override fun areContentsTheSame(oldItem: Plant, newItem: Plant): Boolean {
+                return oldItem._id == newItem._id
+
         val DIFF_CALLBACK = object : DiffUtil.ItemCallback<ListItem>() {
             override fun areItemsTheSame(oldItem: ListItem, newItem: ListItem): Boolean {
                 return oldItem == newItem
